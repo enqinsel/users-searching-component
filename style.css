@@ -1,0 +1,274 @@
+body {
+    background-color: #BFC8E6;
+}
+
+.main {
+    background-color: #fff;
+    position: absolute;
+    width: 1213px;
+    height: 650px;
+    left: 193px;
+    top: 25px;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px 1px rgba(54, 5, 215, 0.556);
+    z-index: -1;
+}
+
+.containerTop {
+    width: 1013px;
+    height: 128px;
+    margin-right: auto;
+    margin-left: auto;
+    /* background-color: red; */
+}
+
+.rowTop {
+    width: 1013px;
+    height: 64px;
+    /* background-color: blue; */
+}
+
+.searchBox {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(133, 133, 133, 0.436);
+}
+
+
+input[type=text] {
+    height: 35px;
+    width: 195px;
+    border: none;
+    float: right;
+    margin-top: 2px;
+    margin-bottom: 150px;
+    font-size: 17px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+#buton {
+    width: 32px;
+    height: 39px;
+    padding-right: 35px;
+    background-color: white;
+    margin-top: 0.5px;
+    border: none;
+    border-right: 1px solid rgba(172, 172, 172, 0.534);
+    border-radius: 4px 0px 0px 4px;
+}
+
+#buton:hover {
+    background-color: rgba(128, 128, 128, 0.189);
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+}
+
+.menu {
+    float: right;
+    width: 735px;
+    height: 65px;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* background-color: rgb(0, 255, 13); */
+}
+
+#menuUL {
+    list-style: none;
+    display: block;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: auto;
+}
+
+#menuUL li {
+    display: inline;
+    margin: 10px;
+    position: relative;
+}
+
+#menuUL li button {
+    width: 115px;
+    height: 56px;
+    border-radius: 8px;
+    gap: 8px;
+    border: none;
+    background-color: #fff;
+}
+
+#menuUL li button:hover {
+    background-color: #849FFF;
+    cursor: pointer;
+    color: white;
+}
+
+#newUsers:hover {
+    background-color: #849FFF;
+    cursor: pointer;
+    color: white;
+}
+
+.col-9 {
+    float: right;
+    width: 735px;
+    height: 56px;
+    /* background-color: yellow; */
+}
+
+a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+h1 {
+
+    width: 91px;
+    height: 40px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #151B32;
+}
+
+
+
+/* BOTTOM */
+
+.containerBottom {
+    width: 1013px;
+    height: 458px;
+    margin-right: auto;
+    margin-left: auto;
+    /* background-color: red; */
+}
+
+.usersTop {
+    width: 1013px;
+    height: 229px;
+    float: right;
+    /* background-color: rgb(71, 229, 3); */
+}
+
+.usersBottom{
+    width: 1013px;
+    height: 229px;
+    float: right;
+    /* background-color: rgb(71, 229, 3); */
+}
+
+.card {
+    width: 290px;
+    height: 140px;
+    margin-top: 35px;
+    margin-left: 15px;
+    border-radius: 16px;
+    padding: 14px;
+    float: left;
+    background-color: rgba(216, 216, 216, 0.368)
+}
+
+.card:hover{
+    border: 1px solid #BFC8E5;
+    cursor: pointer;
+}
+
+.bio {
+    width: 200px;
+    height: 70px;
+    /* background-color: rgb(240, 0, 0); */
+    float: right;
+}
+
+.cardImg {
+    width: 84px;
+    height: 84px;
+    margin-top: 5px;
+}
+
+
+h5 {
+    margin-top: -15px;
+}
+
+.ulCard {
+    position: absolute;
+    width: 200px;
+    height: 65px;
+    clip: rect(0px, 300px, 100px, 15px);
+    /* background-color: #fff; */
+    list-style: none;
+    display: block;
+    margin-left: -35px;
+    margin-top: 0px;
+}
+
+.ulCard li {
+    display: inline;
+    margin: 2px;
+}
+
+.butonCard {
+    background-color: white;
+    border: 1px solid rgba(170, 170, 170, 0.473);
+    border-radius: 4px;
+    color: #516FD4;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.butonCard:hover{
+    cursor: pointer;
+    border: 1px solid rgb(170, 170, 170);
+}
+
+.allCard{
+    margin: 5px;
+}
+
+#h2Text{
+    width: 490px;
+    height: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+}
+
+#all{
+    width: 100px;
+    height: 30px;
+    margin-top: 60px;
+    font-size: 12px;
+    border: none;
+    background-color: #5170d4b8;
+    color: white;
+    border-radius: 0px 50px 50px 0px ;
+    opacity: 0.5;
+}
+
+#all:hover{
+    cursor: pointer;
+    opacity: 1;
+}
